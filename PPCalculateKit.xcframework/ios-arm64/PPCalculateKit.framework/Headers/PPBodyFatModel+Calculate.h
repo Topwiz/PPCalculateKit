@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithUserModel:(PPBluetoothDeviceSettingModel *)userModel
                         andWeight:(CGFloat)weight;
 
+/// 4电极
 - (instancetype)initWithUserModel:(PPBluetoothDeviceSettingModel *)userModel
                 deviceCalcuteType:(PPDeviceCalcuteType)deviceCalcuteType
                         deviceMac:(NSString *)deviceMac
@@ -27,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
                         heartRate:(NSInteger)heartRate
                      andImpedance:(NSInteger)impedance;
 
+/// 8电极
 - (instancetype)initWithUserModel:(PPBluetoothDeviceSettingModel *)userModel
                         deviceMac:(NSString *)deviceMac
                            weight:(CGFloat)weight
@@ -42,6 +44,14 @@ NS_ASSUME_NONNULL_BEGIN
              Z100KhzLeftLegEnCode:(NSInteger)z100KhzLeftLegEnCode
             Z100KhzRightLegEnCode:(NSInteger)z100KhzRightLegEnCode
                 Z100KhzTrunkEnCode:(NSInteger)z100KhzTrunkEnCode;
+
+/// 4电极-双频
+- (instancetype)initWithUserModel:(PPBluetoothDeviceSettingModel *)userModel
+                        deviceMac:(NSString *)deviceMac
+                           weight:(CGFloat)weight
+                        heartRate:(NSInteger)heartRate
+                     andImpedance:(NSInteger)impedance
+               impedance100EnCode:(NSInteger)impedance100EnCode;
 
 @end
 

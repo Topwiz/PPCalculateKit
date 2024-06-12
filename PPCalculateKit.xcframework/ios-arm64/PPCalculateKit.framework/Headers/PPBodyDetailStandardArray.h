@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSUInteger, PPBodyDetailStandardType){
     
     PPBodyDetailStandardType4 = 0, // 4电极方式计算理想体重
-    PPBodyDetailStandardType8 = 0, // 8电极方式计算理想体重
+    PPBodyDetailStandardType8 = 1, // 8电极方式计算理想体重
 
 };
 
