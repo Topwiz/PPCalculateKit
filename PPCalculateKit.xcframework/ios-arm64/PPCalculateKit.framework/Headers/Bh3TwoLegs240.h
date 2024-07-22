@@ -8,25 +8,25 @@
 
  */
         /*!
- @header Bh1TwoLegs240.h
+ @header Bh3TwoLegs240.h
  @abstract 悠健体成分算法库-应用于双频50KHz,100KHz双脚体成分分析
  @author 悠健-陈挺
  @copyright Best Health Electronics INC.
  @date 2020/05/09
  */
-#ifndef Bh1TwoLegs240_h
-#define Bh1TwoLegs240_h
+#ifndef Bh3TwoLegs240_h
+#define Bh3TwoLegs240_h
 
 #import <Foundation/Foundation.h>
-#include "Bh1BodyCompositionEnum.h"
+#include "Bh3BodyCompositionEnum.h"
 
-#pragma mark - Bh1TwoLegs240
+#pragma mark - Bh3TwoLegs240
 /*!
    @class 人體成分
    @abstract 人体成分类
    @discussion 人体的各项人体成分参数
 */
-@interface Bh1TwoLegs240 : NSObject
+@interface Bh3TwoLegs240 : NSObject
 /*
  *   __  .__   __. .______    __    __  .___________.
  *  |  | |  \ |  | |   _  \  |  |  |  | |           |
@@ -134,4 +134,4 @@
 // 小于"瘦/普通"为瘦,小于“普通/偏胖”为普通，小于"偏胖/肥胖"为偏胖，其它肥胖
 @end
 
-#endif /* Bh1TwoLegs240 */
+#endif /* Bh3TwoLegs240 */

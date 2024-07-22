@@ -28,7 +28,4 @@
  *
  *  <h2><center>Copyright (C) BEST HEALTH ELECTRONIC Inc. All rights reserved</center></h2>
  */
-
 #import "BhBodyCompositionEnum.h"
-
-

@@ -8,25 +8,25 @@
 
  */
         /*!
- @header Bh1TwoArms140.h
+ @header Bh4TwoArms140.h
  @abstract 悠健体成分算法库-应用于单频50KHz双手体成分分析
  @author 悠健-陈挺
  @copyright Best Health Electronics INC.
  @date 2020/05/09
  */
-#ifndef Bh1TwoArms140_h
-#define Bh1TwoArms140_h
+#ifndef Bh4TwoArms140_h
+#define Bh4TwoArms140_h
 
 #import <Foundation/Foundation.h>
-#include "Bh1BodyCompositionEnum.h"
+#include "Bh4BodyCompositionEnum.h"
 
-#pragma mark - Bh1TwoArms140
+#pragma mark - Bh4TwoArms140
 /*!
    @class 人體成分
    @abstract 人体成分类
    @discussion 人体的各项人体成分参数
 */
-@interface Bh1TwoArms140 : NSObject
+@interface Bh4TwoArms140 : NSObject
 /*
  *   __  .__   __. .______    __    __  .___________.
  *  |  | |  \ |  | |   _  \  |  |  |  | |           |
@@ -132,4 +132,4 @@
 // 小于"瘦/普通"为瘦,小于“普通/偏胖”为普通，小于"偏胖/肥胖"为偏胖，其它肥胖
 @end
 
-#endif /* Bh1TwoArms140 */
+#endif /* Bh4TwoArms140 */

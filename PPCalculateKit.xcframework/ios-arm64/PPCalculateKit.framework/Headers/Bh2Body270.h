@@ -9,25 +9,25 @@
 */
 
         /*!
- @header Bh1Body270.h
+ @header Bh2Body270.h
  @abstract 悠健体成分算法库-应用于双频(20&100KHz)八电极体成分分析
  @author 悠健-陈挺 tony@e-besthealth.com
  @copyright Best Health Electronics INC.
  @date 2020/05/09
  */
-#ifndef Bh1Body270_h
-#define Bh1Body270_h
+#ifndef Bh2Body270_h
+#define Bh2Body270_h
 
 #import <Foundation/Foundation.h>
-#include "Bh1BodyCompositionEnum.h"
+#include "Bh2BodyCompositionEnum.h"
 
-#pragma mark - Bh1Body270
+#pragma mark - Bh2Body270
 /*!
    @class 人體成分
    @abstract 人体成分类
    @discussion 人体的各项人体成分参数
 */
-@interface Bh1Body270 : NSObject
+@interface Bh2Body270 : NSObject
 /*
  *   __  .__   __. .______    __    __  .___________.
  *  |  | |  \ |  | |   _  \  |  |  |  | |           |
@@ -259,4 +259,4 @@
 
 @end
 
-#endif /* Bh1Body270 */
+#endif /* Bh2Body270 */
