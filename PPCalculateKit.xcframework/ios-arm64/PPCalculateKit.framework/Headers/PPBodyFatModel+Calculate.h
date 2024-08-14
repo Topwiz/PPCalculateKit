@@ -45,8 +45,9 @@ NS_ASSUME_NONNULL_BEGIN
             Z100KhzRightLegEnCode:(NSInteger)z100KhzRightLegEnCode
                 Z100KhzTrunkEnCode:(NSInteger)z100KhzTrunkEnCode;
 
-/// 4电极-双频
+/// 拓展4电极-双频参数 可以传其他deviceCalcuteType 和/// 4电极算法一致
 - (instancetype)initWithUserModel:(PPBluetoothDeviceSettingModel *)userModel
+                deviceCalcuteType:(PPDeviceCalcuteType)deviceCalcuteType
                         deviceMac:(NSString *)deviceMac
                            weight:(CGFloat)weight
                         heartRate:(NSInteger)heartRate
