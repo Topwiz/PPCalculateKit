@@ -194,12 +194,12 @@
     "suggestionArray": [
       "water_leve1_suggestion",
       "water_leve2_suggestion",
-      "water_leve2_suggestion"
+      "water_leve3_suggestion"
     ],
     "evaluationArray": [
       "water_leve1_evaluation",
       "water_leve2_evaluation",
-      "water_leve2_evaluation"
+      "water_leve3_evaluation"
     ],
     "standardTitleArray": [
       "water_leve1_name",
@@ -823,3 +823,4 @@
     ]
   }
 }
+
