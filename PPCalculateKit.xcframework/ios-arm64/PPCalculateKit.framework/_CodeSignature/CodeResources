@@ -92,6 +92,10 @@
 		<data>
 		YriJF7hvPTgPW6QeeBBrsYdV39E=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		TACQAjNH8aZiPGPN1ibJPOzuF+k=
+		</data>
 		<key>abyonCalculate.podspec</key>
 		<data>
 		VUoyoPsNV9xaCxsKejf7/L72SeI=
@@ -328,6 +332,17 @@
 			<key>hash2</key>
 			<data>
 			VuH7IEQU4rFpwW/jtM2UcLcsS01FR4kyFKzdV48y/Go=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TACQAjNH8aZiPGPN1ibJPOzuF+k=
+			</data>
+			<key>hash2</key>
+			<data>
+			j0y/Om8Yt96qvIZGvSVd9FPw0QDe8HTsBeREY0N76dU=
 			</data>
 		</dict>
 		<key>abyonCalculate.podspec</key>
